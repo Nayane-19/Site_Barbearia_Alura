@@ -9,7 +9,7 @@ Os usuários poderão conhecer um pouco mais sobre a empresa além de terem aces
 
 Terão acesso aos preços na página produtos
 
-E poderão se cadastrar para serem catactados pela empresa enviando:
+E poderão se cadastrar para serem contactados pela empresa enviando:
 
 - Nome
 - Email
