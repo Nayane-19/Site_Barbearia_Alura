@@ -1,0 +1,224 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+.header {   
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.header nav a {
+    text-transform: uppercase;
+    color: var(--color-text-tittle);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.header nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+.header a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.produto {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produto li {
+    display: inline-block;
+    margin: 0 1.5%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    height: 400px;
+    vertical-align: top;
+    box-sizing: border-box;
+   
+}
+
+.produto li:hover {
+    border-color: #c78c19;
+}
+
+.produto li:hover h2 {
+    font-size: 34px;
+}
+
+.produto li:active {
+    border-color: #088c19;
+}
+
+.produto h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+      
+}
+
+.produto p {
+    font-size: 18px;
+    margin: 0 0 10px 10px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.produto strong {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.rodape {
+    background: url("/images/bg.jpg");
+    text-align: center;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.rodape p {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/* css página inicial */
+
+
+.banner {
+    width: 100%;
+}
+
+.titulo_principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left; /*limpa float a esquerda */
+    color: rgba(0, 0, 0, 1);
+}
+
+.titulo_principal:hover {
+    color: rgba(0, 0, 0, 0.6);
+    transition: 200ms;
+}
+
+.texto {
+    background: #fefefe;
+    margin: 5em;
+}
+
+.texto p {
+    margin: 0 0 1em;
+}
+
+.texto strong {
+    font-weight: bold;
+}
+
+.texto em {
+    font-style: italic;
+}
+
+.texto ul {
+    margin: 0 0 1em;
+}
+
+.mapa {
+    padding: 2em 0;
+    margin: 5em;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficios {
+    background: linear-gradient(white, black);
+}
+
+.conteudo_beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista_beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1.5;
+}
+
+.lista_beneficios li:hover {
+    color: #c78c19;
+    text-decoration: unset;
+
+}
+
+/*.lista_beneficios li:first-child {
+    font-weight: bold;
+    Deixa a primeira linha em negrito
+}*/
+
+.lista_beneficios li::before {
+    content: "▶ ";
+}
+
+
+.imagem-beneficio {
+    width: 60%;
+    box-shadow: 5px 10px 30px #000000;
+}
+
+
+.imagem-utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.video {
+    width: 560px;
+    margin: 0.5em auto;
+    padding: 2em 0;
+}
+
+@media secreen and (max-width: 480px) {
+
+
+.header, .video {
+    width: auto;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.header nav {
+    position: static;
+}
+
+.lista_beneficios, .imagem-beneficio{
+    width: 100%;
+}
+
+
+}
